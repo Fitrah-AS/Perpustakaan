@@ -70,7 +70,7 @@ session_start();
                     <span>Peminjaman</span>
                 </a>
 
-                <?php 
+                <?php   
                 if ($_SESSION['user']['level'] == 'admin') :
                 ?>
                 <a class="nav-link collapsed" href="index.php?page=kategori" data-toggle="collapse" data-target="#collapseTwo"
@@ -322,7 +322,8 @@ session_start();
                     <!-- Content Row -->
                     <div class="row">
                         <?php  
-                            $page = isset($_GET['page']) ? $_GET['page'] : 'home';
+                        
+                            $page = (isset($_GET['page']) ? $_GET['page'] : 'home');
                             if (file_exists($page . '.php')) {
                                 include $page . '.php';
                             } else {
