@@ -13,7 +13,7 @@ session_start();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>SB Admin 2 - </title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -39,7 +39,7 @@ session_start();
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Perpustakaan<sup>keren</sup></div>
+                <div class="sidebar-brand-text mx-3"><sup>keren</sup></div>
             </a>
 
             <!-- Divider -->
